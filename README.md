@@ -1,2 +1,2 @@
-# telephone-state-checker
-A JavaScript tool that validates phone numbers and checks carrier/region details in real-time using API lookups.
+# Counting-Dispaly
+This Software is use to display the conting based on the user input for the limit to display the counting. 
