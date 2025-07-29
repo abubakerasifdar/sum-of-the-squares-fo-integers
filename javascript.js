@@ -8,24 +8,13 @@
         function myFunction() {
             let input = document.getElementById('input').value;
             let result = "";
-            let state = "";
-            do {
-                state = input;
-                if (state != "w" || state != "d") {
-                    result = `Please Enter w for Working and d for deadline. And  your Entered ${state} <br> Please Enter Again`
-
-                }
-            } while (state != "w" || state != "d")
-            if (state == "w") {
-                
-                result = `State is Working and As You Entered ${state} <br>`
-                document.getElementById('output').style.background = "green"
+            let count=0;
+            for (let i = 0; i<input; i++){
+                count = count + i + '<br>' ;
+              
+                console.log(count);
             }
-            else {
-                result = `State is Dead and As You Entered ${state} <br>`
-                document.getElementById('output').style.background = "red"
-            }
-
+           result = count;
             document.getElementById('output').style.display = "flex";
             document.getElementById('output').innerHTML = result;
         }
