@@ -17,11 +17,11 @@ function myFunction() {
     let countarray = count.split(',');
     let len = countarray.length-1
     for (let i = 0; i < len; i++) {
-         if (countarray[i] != 0 && countarray[i] % 2 != 0) { oddNumber = oddNumber + Number(countarray[i]) + ",";
+         if (countarray[i] != 0 && countarray[i] % 2 != 0) { oddNumber = oddNumber + Number(countarray[i]) + "<br>";
             oddProduct = oddProduct * countarray[i];
         }
     }
-    result = `You Entered ${input} and in this odd numbers: ${oddNumber} & Their Product is ${oddProduct}`;
+    result = `You Entered:  ${input} <br> & In this odd numbers are: <br>  ${oddNumber} <br>& Their Product is ${oddProduct}`;
     document.getElementById('output').style.display = "flex";
     document.getElementById('output').innerHTML = result;
 }
