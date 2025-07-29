@@ -1,2 +1,2 @@
-# Counting-Dispaly
-This Software is use to display the conting based on the user input for the limit to display the counting. 
+# displays-product-of-all-odd-numbers
+A JavaScript tool that calculates the product of all odd numbers in a given range or array, with step-by-step computation.
